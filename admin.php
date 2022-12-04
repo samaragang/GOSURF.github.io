@@ -96,7 +96,7 @@ require_once 'config/db.php';
 </table>
 <h3>ADD NEW DATA</h3>
 <form class="form" action="vendor/create.php" method="post">
-<input type="hidden" name="table_name" value="<?=$table_name;?>">
+    <input type="hidden" name="table_name" value="<?=$table_name;?>">
     <div class="form__item">
         <p>COUNTRY</p>
         <input type="text" name="country">
@@ -159,7 +159,7 @@ require_once 'config/db.php';
 </table>
 <h3>ADD NEW DATA</h3>
 <form class="form" action="vendor/create.php" method="post">
-<input type="hidden" name="table_name" value="<?= $table_name;?>">
+    <input type="hidden" name="table_name" value="<?= $table_name;?>">
     <div class="form__item">
         <p>COUNTRY</p>
         <input type="text" name="country">
@@ -218,7 +218,7 @@ require_once 'config/db.php';
 </table>
 <h3>ADD NEW DATA</h3>
 <form class="form" action="vendor/create.php" method="post">
-<input type="hidden" name="table_name" value="<?= $table_name;?>">
+    <input type="hidden" name="table_name" value="<?= $table_name;?>">
     <div class="form__item">
         <p>COUNTRY</p>
         <input type="text" name="country">
@@ -277,7 +277,7 @@ require_once 'config/db.php';
 </table>
 <h3>ADD NEW DATA</h3>
 <form class="form" action="vendor/create.php" method="post">
-<input type="hidden" name="table_name" value="<?= $table_name;?>">
+    <input type="hidden" name="table_name" value="<?= $table_name;?>">
     <div class="form__item">
         <p>COUNTRY</p>
         <input type="text" name="country">

@@ -6165,7 +6165,7 @@ a {
     position: relative;
 }
 
-/* .holder-slider__info-title .holder-pricing__span {
+.holder-slider__info-title .holder-pricing__span {
     font-size: 14px;
     font-weight: 400;
     opacity: 0.75;
@@ -6173,13 +6173,13 @@ a {
     position: absolute;
     bottom: -18px;
     right: 0;
-} */
+}
 
-/* @media screen and (max-width: 575px) {
+@media screen and (max-width: 575px) {
     .holder-slider__info-title .holder-pricing__span {
         left: 0;
     }
-} */
+}
 
 @media screen and (max-width: 1140px) {
     .holder-slider__info-title {
@@ -6648,3 +6648,115 @@ input[type=number] {
     letter-spacing: 1.05px;
     opacity: 0.5;
 }
+
+.appointment__inner {
+    display: flex;   
+    justify-content: center;
+}
+
+.form {
+    display: inline-block;
+    padding: 90px 0 90px 68px ;
+    width: 1198px;
+
+    /* background: rgba(15, 16, 16, 0.7);
+    border-radius: 20px; */
+    
+
+
+    margin-top: 24px;
+    /* font-family: 'Comfortaa'; */
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+
+
+    
+}
+
+.form-info {
+    display: flex;
+    flex-direction: column;
+}
+.form-info__item {
+    width: 1062px;
+    height: 73px;
+    color: orange;
+    border: none;
+    margin-bottom: 58px;
+    border-radius: 10px;
+    padding-left: 48px;
+}
+
+
+.form__title {
+    margin-bottom: 35px;
+}
+
+.form-pets {
+    display: grid;
+     /* grid-template:repeat(2, 53px) / repeat(2, 490px ); */
+    grid-template-columns: 490px 600px ;
+    grid-template-rows: 53px 53px 53px 53px;
+    margin-bottom: 58px;
+
+}
+
+.form__item {
+    margin-left: 40px;
+}
+
+.form-btn {
+    width: 100%;
+    margin: 0 auto;
+    display: inline-grid;
+    grid-template-columns: 410px 292px;
+    grid-template-rows:  96px;
+    gap: 88px;
+    justify-content: center;
+    margin-left: -34px;
+
+    
+}
+
+.form-btn img {
+    margin:-12px 0 0 20px;
+}
+
+
+.radio {
+    display: none;
+}
+.radio:checked + .fake-radio::before {
+    opacity: 1;
+}
+
+.fake-radio {
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 32px;
+    transform: translateY(2px);
+    position: relative;
+    margin-right: 28px;
+
+    
+}
+
+.fake-radio::before {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color:black;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    transition: .2s linear;
+}
+
