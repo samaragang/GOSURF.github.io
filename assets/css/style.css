@@ -6622,7 +6622,8 @@ input[type=number] {
 }
 
 .footer {
-    padding: 285px 0 34px;
+    /* padding: 285px 0 34px; */
+    padding: 15px 0 34px;
     text-align: center;
 }
 
@@ -6758,5 +6759,29 @@ input[type=number] {
     transform: translate(-50%,-50%);
     opacity: 0;
     transition: .2s linear;
+}
+
+button {
+    font-family: inherit;
+    background-color: transparent;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    
+}
+
+.button span {
+    
+    padding-right: 17px;
+    
+}
+.button span::after {
+    
+    display: none;
+    
+}
+
+.orders {
+    margin-bottom: 100px;
 }
 

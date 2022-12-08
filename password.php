@@ -30,6 +30,17 @@
     <input name="input_PW" type="password">
     <button type="submit">enter</button>
 </form>
+
+<script>
+        let flag = false;
+        document.onkeydown = function(event) {
+            if (event.code == 'AltLeft') flag = true;
+            if (event.code == 'KeyA' && flag){
+                flag = false;
+                window.location.href = 'index.php';
+            };
+        }
+</script>
     
 </body>
 </html>

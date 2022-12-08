@@ -28,11 +28,39 @@ if ($query = $db->query("SELECT * FROM `description`")) {
 
 /*====AIRLINES====*/ 
 $airlines = [];
-if ($query = $db->query("SELECT * FROM `airlines`")) {
-$airlines = $query->fetchAll(PDO::FETCH_ASSOC); 
+
+
+
+
+
+
+
+if ($query = $db->query("SELECT * FROM `airlines` ORDER BY `distance` ASC")) {
+    $airlines = $query->fetchAll(PDO::FETCH_ASSOC); 
 } else {
     print_r($db->errorInfo());
 }
+
+    // case 'DESC':
+    //     if ($query = $db->query("SELECT * FROM `airlines` ORDER BY `distance` DESC")) {
+    //         $airlines = $query->fetchAll(PDO::FETCH_ASSOC); 
+    //     } else {
+    //         print_r($db->errorInfo());
+    //     }
+    //     // header('Location: ../admin.php');
+    //     break;
+    // case 'DEFAULT':
+    //     if ($query = $db->query("SELECT * FROM `airlines`")) {
+    //         $airlines = $query->fetchAll(PDO::FETCH_ASSOC); 
+    //     } else {
+    //         print_r($db->errorInfo());
+    //     }
+    //     // header('Location: ../admin.php');
+    //     break;
+
+
+
+
 
 /*====HOTEL====*/ 
 $hotel = [];
@@ -67,6 +95,52 @@ if ($query = $db->query("SELECT h.*, d.city FROM `hotel` h JOIN `description` d 
 }
 
 
+
+
+
+
+
+/*====SUM_PRICE_AIRLINES====*/ 
+$sum_price_airlines = [];
+if ($query = $db->query("SELECT SUM(`price`) from `airlines`")) {
+    $sum_price_airlines = $query->fetchAll(PDO::FETCH_ASSOC);
+} else {
+    print_r($db->errorInfo());
+}
+/*====MAX_PRICE_AIRLINES====*/ 
+$max_price_airlines = [];
+if ($query = $db->query("SELECT `price` FROM `airlines` WHERE `price` = (SELECT MAX(`price`) FROM `airlines`)")) {
+    $max_price_airlines = $query->fetchAll(PDO::FETCH_ASSOC);
+} else {
+    print_r($db->errorInfo());
+}
+
+/*====MAX_PRICE_COUNTRY_AIRLINES====*/ 
+$max_price_country_airlines = [];
+if ($query = $db->query("SELECT `country` FROM `airlines` WHERE `price`= (SELECT MAX(`price`) FROM `airlines`) GROUP BY `country`")) {
+    $max_price_country_airlines = $query->fetchAll(PDO::FETCH_ASSOC);
+} else {
+    print_r($db->errorInfo());
+}
+
+/*====MIN_PRICE_AIRLINES====*/ 
+$min_price_airlines = [];
+if ($query = $db->query("SELECT  `price` FROM `airlines` WHERE `price` = (SELECT MIN(`price`) FROM `airlines`)")) {
+    $min_price_airlines = $query->fetchAll(PDO::FETCH_ASSOC);
+} else {
+    print_r($db->errorInfo());
+}
+
+/*====MIN_PRICE_COUNTRY_AIRLINES====*/ 
+$min_price_country_airlines = [];
+if ($query = $db->query("SELECT `country` FROM `airlines` WHERE `price`= (SELECT MIN(`price`) FROM `airlines`) GROUP BY `country`")) {
+    $min_price_country_airlines = $query->fetchAll(PDO::FETCH_ASSOC);
+} else {
+    print_r($db->errorInfo());
+}
+
+//SELECT * FROM Sumproduct WHERE (Product = 'Bikes' OR Product = 'Skates') AND Month= 'March'
+//SELECT * FROM Sumproduct WHERE Amount BETWEEN 1000 AND 2000
 
 
 

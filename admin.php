@@ -213,9 +213,50 @@ require_once 'config/db.php';
                 <td><a href="update.php?id=<?= $data['id'];?>&table_name=<?= $table_name;?>">update</a></td>
                 <td><a href="vendor/delete.php?id=<?= $data['id'];?>&table_name=<?= $table_name;?>">delete</td>
             </tr>
-        <?php }?>
+            <?php }?>
+
+            <tr>
+                <th>total:</th>
+                <th colspan="4"></th>
+                <th>
+                    <?php foreach ($sum_price_airlines as $data) {?><?= $data['SUM(`price`)'];?>$ <?php }?>
+                </th>
+                <th colspan="4"></th>
+            </tr>
+            <tr>
+                <th>the biggest price:</th>
+                <th>
+                    <?php foreach ($max_price_country_airlines as $data) {?><?= $data['country'];?><?php }?>
+                </th>
+                <th colspan="3"></th>
+                <th>
+                    <?php foreach ($max_price_airlines as $data) {?><?= $data['price'];?>$<?php }?>
+                </th>
+                <th colspan="4"></th>
+            </tr>
+            <tr>
+                <th>the smallest price:</th>
+                <th>
+                    <?php foreach ($min_price_country_airlines as $data) {?><?= $data['country'];?><?php }?>
+                </th>
+                <th colspan="3"></th>
+                <th>
+                    <?php foreach ($min_price_airlines as $data) {?><?= $data['price'];?>$<?php }?>
+                </th>
+                <th colspan="4"></th>
+            </tr>
+            <form class="form" action="config/db.php" method="post">
+                <input type="radio" name="sort" value="ASC">
+                <label>ASC</label>
+                <input type="radio" name="sort" value="DESC">
+                <label>DESC</label>
+                <input type="radio" name="sort" value="DEFAULT">
+                <label>DEFAULT</label>
+                <button type="submit">SORTING</button>
+            </form>
     </tbody>
 </table>
+
 <h3>ADD NEW DATA</h3>
 <form class="form" action="vendor/create.php" method="post">
     <input type="hidden" name="table_name" value="<?= $table_name;?>">
@@ -300,6 +341,22 @@ require_once 'config/db.php';
 </form>
 
 
+
+
+
+
+
+
+<script>
+        let flag = false;
+        document.onkeydown = function(event) {
+            if (event.code == 'AltLeft') flag = true;
+            if (event.code == 'KeyA' && flag){
+                flag = false;
+                window.location.href = 'index.php';
+            };
+        }
+</script>
 
 
 </body>

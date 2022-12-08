@@ -228,244 +228,7 @@
                     
                 </div>
                 <?php } ?>
-<!-- 
-                <div class="slider-dots  slider-dots--2">
-                    <div class="slider-dots__circle wow animate__animated animate__fadeInUpBig" data-wow-delay="1.1s"></div>
-                    <div class="slider-dots__content">
-                        <div class="slider-dots__content-row">
-                            <div class="slider-dots__content-head">
-                                <div class="slider-dots__content-title"></div>
-                                <div class="slider-dots__content-subtitle">Australia</div>
-                            </div>
-                            <a class="slider-dots__content-link" href="#">
-                                <img src="assets/images/arrows-right.svg" alt="">
-                            </a>
-                        </div>
-                        <div class="slider-dots__content-row">
-                            <div class="slider-dots__content-item">
-                                <img src="assets/images/surf-icon.svg" alt="">
-                                <div class="slider-dots__content-number">9 - 13</div>
-                                <div class="slider-dots__content-name">Surf (FT)</div>
-                            </div>
-        
-                            <div class="slider-dots__content-item">
-                                <img src="assets/images/water-icon.svg" alt="">
-                                <div class="slider-dots__content-number">+2.3</div>
-                                <div class="slider-dots__content-name">Tide (FT)</div>
-                            </div>
-        
-                            <div class="slider-dots__content-item">
-                                <img src="assets/images/wind-icon.svg" alt="">
-                                <div class="slider-dots__content-number">4 SE</div>
-                                <div class="slider-dots__content-name">Wind (KTS)</div>
-                            </div>
-                        </div>
-                    </div> 
-                </div> 
-        
-                <div class="slider-dots  slider-dots--3">
-                    <div class="slider-dots__circle wow animate__animated animate__fadeInUpBig" data-wow-delay="1.2s"></div>
-                    <div class="slider-dots__content">
-                        <div class="slider-dots__content-row">
-                            <div class="slider-dots__content-head">
-                                <div class="slider-dots__content-title"></div>
-                                <div class="slider-dots__content-subtitle">Australia</div>
-                            </div>
-                            <a class="slider-dots__content-link" href="#">
-                                <img src="assets/images/arrows-right.svg" alt="">
-                            </a>
-                        </div>
-                        <div class="slider-dots__content-row">
-                            <div class="slider-dots__content-item">
-                                <img src="assets/images/surf-icon.svg" alt="">
-                                <div class="slider-dots__content-number">9 - 13</div>
-                                <div class="slider-dots__content-name">Surf (FT)</div>
-                            </div>
-        
-                            <div class="slider-dots__content-item">
-                                <img src="assets/images/water-icon.svg" alt="">
-                                <div class="slider-dots__content-number">+2.3</div>
-                                <div class="slider-dots__content-name">Tide (FT)</div>
-                            </div>
-        
-                            <div class="slider-dots__content-item">
-                                <img src="assets/images/wind-icon.svg" alt="">
-                                <div class="slider-dots__content-number">4 SE</div>
-                                <div class="slider-dots__content-name">Wind (KTS)</div>
-                            </div>
-                        </div>
-                    </div> 
-                </div> 
-        
-                <div class="slider-dots  slider-dots--4">
-                    <div class="slider-dots__circle wow animate__animated animate__fadeInUpBig" data-wow-delay="1.3s"></div>
-                    <div class="slider-dots__content">
-                        <div class="slider-dots__content-row">
-                            <div class="slider-dots__content-head">
-                                <div class="slider-dots__content-title">Airlie Beach</div>
-                                <div class="slider-dots__content-subtitle">Australia</div>
-                            </div>
-                            <a class="slider-dots__content-link" href="#">
-                                <img src="assets/images/arrows-right.svg" alt="">
-                            </a>
-                        </div>
-                        <div class="slider-dots__content-row">
-                            <div class="slider-dots__content-item">
-                                <img src="assets/images/surf-icon.svg" alt="">
-                                <div class="slider-dots__content-number">9 - 13</div>
-                                <div class="slider-dots__content-name">Surf (FT)</div>
-                            </div>
-        
-                            <div class="slider-dots__content-item">
-                                <img src="assets/images/water-icon.svg" alt="">
-                                <div class="slider-dots__content-number">+2.3</div>
-                                <div class="slider-dots__content-name">Tide (FT)</div>
-                            </div>
-        
-                            <div class="slider-dots__content-item">
-                                <img src="assets/images/wind-icon.svg" alt="">
-                                <div class="slider-dots__content-number">4 SE</div>
-                                <div class="slider-dots__content-name">Wind (KTS)</div>
-                            </div>
-                        </div>
-                    </div> 
-                </div> 
-        
-                <div class="slider-dots  slider-dots--5">
-                    <div class="slider-dots__circle wow animate__animated animate__fadeInUpBig" data-wow-delay="1.4s"></div>
-                    <div class="slider-dots__content">
-                        <div class="slider-dots__content-row">
-                            <div class="slider-dots__content-head">
-                                <div class="slider-dots__content-title">Airlie Beach</div>
-                                <div class="slider-dots__content-subtitle">Australia</div>
-                            </div>
-                            <a class="slider-dots__content-link" href="#">
-                                <img src="assets/images/arrows-right.svg" alt="">
-                            </a>
-                        </div>
-                        <div class="slider-dots__content-row">
-                            <div class="slider-dots__content-item">
-                                <img src="assets/images/surf-icon.svg" alt="">
-                                <div class="slider-dots__content-number">9 - 13</div>
-                                <div class="slider-dots__content-name">Surf (FT)</div>
-                            </div>
-        
-                            <div class="slider-dots__content-item">
-                                <img src="assets/images/water-icon.svg" alt="">
-                                <div class="slider-dots__content-number">+2.3</div>
-                                <div class="slider-dots__content-name">Tide (FT)</div>
-                            </div>
-        
-                            <div class="slider-dots__content-item">
-                                <img src="assets/images/wind-icon.svg" alt="">
-                                <div class="slider-dots__content-number">4 SE</div>
-                                <div class="slider-dots__content-name">Wind (KTS)</div>
-                            </div>
-                        </div>
-                    </div> 
-                </div> 
-        
-                <div class="slider-dots  slider-dots--6">
-                    <div class="slider-dots__circle wow animate__animated animate__fadeInUpBig" data-wow-delay="1.5s"></div>
-                    <div class="slider-dots__content">
-                        <div class="slider-dots__content-row">
-                            <div class="slider-dots__content-head">
-                                <div class="slider-dots__content-title">Airlie Beach</div>
-                                <div class="slider-dots__content-subtitle">Australia</div>
-                            </div>
-                            <a class="slider-dots__content-link" href="#">
-                                <img src="assets/images/arrows-right.svg" alt="">
-                            </a>
-                        </div>
-                        <div class="slider-dots__content-row">
-                            <div class="slider-dots__content-item">
-                                <img src="assets/images/surf-icon.svg" alt="">
-                                <div class="slider-dots__content-number">9 - 13</div>
-                                <div class="slider-dots__content-name">Surf (FT)</div>
-                            </div>
-        
-                            <div class="slider-dots__content-item">
-                                <img src="assets/images/water-icon.svg" alt="">
-                                <div class="slider-dots__content-number">+2.3</div>
-                                <div class="slider-dots__content-name">Tide (FT)</div>
-                            </div>
-        
-                            <div class="slider-dots__content-item">
-                                <img src="assets/images/wind-icon.svg" alt="">
-                                <div class="slider-dots__content-number">4 SE</div>
-                                <div class="slider-dots__content-name">Wind (KTS)</div>
-                            </div>
-                        </div>
-                    </div> 
-                </div> 
-        
-                <div class="slider-dots  slider-dots--7">
-                    <div class="slider-dots__circle wow animate__animated animate__fadeInUpBig" data-wow-delay="1.6s"></div>
-                    <div class="slider-dots__content">
-                        <div class="slider-dots__content-row">
-                            <div class="slider-dots__content-head">
-                                <div class="slider-dots__content-title">Airlie Beach</div>
-                                <div class="slider-dots__content-subtitle">Australia</div>
-                            </div>
-                            <a class="slider-dots__content-link" href="#">
-                                <img src="assets/images/arrows-right.svg" alt="">
-                            </a>
-                        </div>
-                        <div class="slider-dots__content-row">
-                            <div class="slider-dots__content-item">
-                                <img src="assets/images/surf-icon.svg" alt="">
-                                <div class="slider-dots__content-number">9 - 13</div>
-                                <div class="slider-dots__content-name">Surf (FT)</div>
-                            </div>
-        
-                            <div class="slider-dots__content-item">
-                                <img src="assets/images/water-icon.svg" alt="">
-                                <div class="slider-dots__content-number">+2.3</div>
-                                <div class="slider-dots__content-name">Tide (FT)</div>
-                            </div>
-        
-                            <div class="slider-dots__content-item">
-                                <img src="assets/images/wind-icon.svg" alt="">
-                                <div class="slider-dots__content-number">4 SE</div>
-                                <div class="slider-dots__content-name">Wind (KTS)</div>
-                            </div>
-                        </div>
-                    </div> 
-                </div> 
-        
-                <div class="slider-dots  slider-dots--8">
-                    <div class="slider-dots__circle wow animate__animated animate__fadeInUpBig" data-wow-delay="1.7s"></div>
-                    <div class="slider-dots__content">
-                        <div class="slider-dots__content-row">
-                            <div class="slider-dots__content-head">
-                                <div class="slider-dots__content-title">Airlie Beach</div>
-                                <div class="slider-dots__content-subtitle">Australia</div>
-                            </div>
-                            <a class="slider-dots__content-link" href="#">
-                                <img src="assets/images/arrows-right.svg" alt="">
-                            </a>
-                        </div>
-                        <div class="slider-dots__content-row">
-                            <div class="slider-dots__content-item">
-                                <img src="assets/images/surf-icon.svg" alt="">
-                                <div class="slider-dots__content-number">9 - 13</div>
-                                <div class="slider-dots__content-name">Surf (FT)</div>
-                            </div>
-        
-                            <div class="slider-dots__content-item">
-                                <img src="assets/images/water-icon.svg" alt="">
-                                <div class="slider-dots__content-number">+2.3</div>
-                                <div class="slider-dots__content-name">Tide (FT)</div>
-                            </div>
-        
-                            <div class="slider-dots__content-item">
-                                <img src="assets/images/wind-icon.svg" alt="">
-                                <div class="slider-dots__content-number">4 SE</div>
-                                <div class="slider-dots__content-name">Wind (KTS)</div>
-                            </div>
-                        </div>
-                    </div> 
-                </div>   -->
+                
             </div> <!-- /.slider-map -->
             
         
@@ -484,89 +247,7 @@
                 </div>
                 <?php }?>
         
-                <!-- <div class="surf-box">
-                    <div class="surf-box__wrapper wow animate__animated animate__fadeInUp" data-wow-offset="200" data-wow-delay=".6s"  style="background-image: url(assets/images/slide-south.png);">
-                    <div class="surf-box__inner">
-                             <div class="surf-box__inner-title">Airlie Beach</div>
-                            <div class="surf-box__inner-location">Queensland <span>|</span> Australia</div>
-                            <div class="surf-box__inner-btn">
-                                <a class="btn" href="#">view <span>surf</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        
-                <div class="surf-box">
-                    <div class="surf-box__wrapper wow animate__animated animate__fadeInUp" data-wow-offset="200" data-wow-delay=".9s" style="background-image: url(assets/images/slide-west.jpg);">
-                    <div class="surf-box__inner">
-                            <div class="surf-box__inner-title">Cloud Nine</div>
-                            <div class="surf-box__inner-location">Siargao <span>|</span> Philippines</div>
-                            <div class="surf-box__inner-btn">
-                                <a class="btn" href="#">view <span>surf</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        
-                <div class="surf-box">
-                    <div class="surf-box__wrapper wow animate__animated animate__fadeInUp" data-wow-offset="200" data-wow-delay="1.2s"  style="background-image: url(assets/images/slide-east.jpg);">
-                    <div class="surf-box__inner">
-                            <div class="surf-box__inner-title">Vieux Boucau</div>
-                            <div class="surf-box__inner-location">Hossegor <span>|</span> France</div>
-                            <div class="surf-box__inner-btn">
-                                <a class="btn" href="#">view <span>surf</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        
-                <div class="surf-box">
-                    <div class="surf-box__wrapper" style="background-image: url(assets/images/slide-north.jpg);">
-                    <div class="surf-box__inner">
-                            <div class="surf-box__inner-title">Malibu Beach</div>
-                            <div class="surf-box__inner-location">California <span>|</span> USA</div>
-                            <div class="surf-box__inner-btn">
-                                <a class="btn" href="#">view <span>surf</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        
-                <div class="surf-box">
-                    <div class="surf-box__wrapper"  style="background-image: url(assets/images/slide-south.png);">
-                    <div class="surf-box__inner">
-                             <div class="surf-box__inner-title">Airlie Beach</div>
-                            <div class="surf-box__inner-location">Queensland <span>|</span> Australia</div>
-                            <div class="surf-box__inner-btn">
-                                <a class="btn" href="#">view <span>surf</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        
-                <div class="surf-box">
-                    <div class="surf-box__wrapper" style="background-image: url(assets/images/slide-west.jpg);">
-                    <div class="surf-box__inner">
-                            <div class="surf-box__inner-title">Cloud Nine</div>
-                            <div class="surf-box__inner-location">Siargao <span>|</span> Philippines</div>
-                            <div class="surf-box__inner-btn">
-                                <a class="btn" href="#">view <span>surf</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        
-                <div class="surf-box">
-                    <div class="surf-box__wrapper"  style="background-image: url(assets/images/slide-east.jpg);">
-                    <div class="surf-box__inner">
-                            <div class="surf-box__inner-title">Vieux Boucau</div>
-                            <div class="surf-box__inner-location">Hossegor <span>|</span> France</div>
-                            <div class="surf-box__inner-btn">
-                                <a class="btn" href="#">view <span>surf</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
+               
             </div> <!-- /.surf-slider -->
         </section> 
         
@@ -592,9 +273,7 @@
                         <div class="holder-slider__descr wow animate__animated animate__fadeInUp" style="background-image: url(assets/images/<?=$data['airline'];?>.png);" data-wow-offset="350">
                             <div class="descr">
                                 <div class="headline-right">Airline</div>
-                                <div class="descr__head"><?=$data['airline'];?>
-                                    <!-- <img class="avia-logo" width="120" src="assets/images/iberia-logo.png" alt=""> -->
-                                </div>
+                                <div class="descr__head"><?=$data['airline'];?></div>
                             </div>
                         </div>
                         <div class="holder-slider__info">
@@ -608,7 +287,7 @@
                             </div>
                             <div class="holder-slider__info-item wow animate__animated animate__fadeInUp" data-wow-offset="200" data-wow-delay=".5s">
                                 <div class="holder-slider__info-subtitle">holder Time</div>
-                                <div class="holder-slider__info-title"><?=$data['time'];?></div>
+                                <div class="holder-slider__info-title"><?=$data['hours'];?> hours<br><?=$data['minutes'];?> minutes</div>
                             </div>
                             <div class="holder-slider__info-item wow animate__animated animate__fadeInUp" data-wow-offset="200" data-wow-delay=".6s">
                                 <div class="holder-slider__info-subtitle">Pricing</div>
@@ -617,9 +296,9 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- <div class="holder-slider__btn">
+                        <div class="holder-slider__btn">
                             <a class="btn wow animate__animated animate__fadeInUp" href="#" data-wow-delay=".8s">Book <span>Flight</span></a>
-                        </div> -->
+                        </div>
                     </div>
                 <?php }?>                
             </div> 
@@ -687,9 +366,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- <div class="holder-slider__btn">
+                            <div class="holder-slider__btn">
                                 <a class="btn wow animate__animated animate__fadeInUp" href="#" data-wow-delay="1.4s">Book <span>Stay</span></a>
-                            </div> -->
+                            </div>
                         </div>
                     <?php }?>
                 </div> 
@@ -703,6 +382,7 @@
                         <h3>shop</h3>
                     </div>
                 </div>
+                
                 <div class="shop__slider">
                     <?php foreach ($shop as $data) {?>
                         <div class="shop__slider-item">
@@ -789,8 +469,18 @@
         </section>  
     </div>
 
+  
+
+    <div class="title orders">
+                    <div>
+                        <span class="wow animate__animated animate__fadeInLeft" data-wow-offset="300">Orders</span>
+                        <h3>orders</h3>
+                    </div>
+                </div>
     <div class="appointment__inner">
-            <form class="form"  method="get" required >
+    
+            <form class="form" action="vendor/create.php" method="post" required >
+            <input type="hidden" name="table_name" value="<?= $table_name = 'orders';?>">
                 <div class="form-info">
                     <input class="form-info__item" type="text" name="f_name" placeholder="FIRST NAME*" required>
                     <input class="form-info__item" type="text" name="l_name" placeholder="LAST NAME*" required>
@@ -801,52 +491,24 @@
                     <?php foreach ($resorts as $data) {?>
                         <div class="form__item">
                             <label class="cat">
-                                <input class="radio" type="radio" name="animal">
+                                <input class="radio" type="radio" name="resorts" value="<?=$data['title'];?>">
                                 <span class="fake-radio"></span><?=$data['title'];?>
                             </label>
                         </div>
                     <?php }?>
-                    <!-- <div class="form__item">
-                        <label class="rodent">
-                            <input class="radio" type="radio" name="animal">
-                            <span class="fake-radio"></span>Грызун
-                        </label>
-                    </div>
-                    <div class="form__item">
-                        <label class="dog">
-                            <input class="radio" type="radio" name="animal">
-                            <span class="fake-radio"></span>Собака
-                        </label>
-                    </div>
-                    <div class="form__item">
-                    <label class="dog">
-                            <input class="radio" type="radio" name="animal">
-                            <span class="fake-radio"></span>Собака
-                        </label>
-                    </div>
-                    <label class="d123">
-                            <input class="radio" type="radio" name="animal">
-                            <span class="fake-radio"></span>Собака
-                        </label>
-                    </div>
-                    <label class="d33og">
-                            <input class="radio" type="radio" name="animal">
-                            <span class="fake-radio"></span>Собака
-                        </label>
-                    </div> -->
                 </div>
-                <div class="form__title">Отделения</div>
+                <!-- <div class="form__title">Отделения</div> -->
                
                 <div class="form-btn">
-                    <button type="submit" class="btn btn--orng btn--big">Записаться</button>
-                    <button type="reset"  class="btn btn--wht btn--big">Очистить</button>
+                    <button type="submit" class="btn button">Go<span>Send</span></button>
+                    <button type="reset"  class="btn button">Go<span>Clear</span></button>
                 </div>
 
             </form>
         </div>
    
     <footer class="footer">
-            <a class="btn wow animate__animated animate__fadeInUp" href="#">Go <span>Surf</span></a>
+            <!-- <a class="btn" href="#">Go <span>Clear</span></a> -->
             <div class="footer__copy">
                 © Go-Surf 2022. All Rights Reserved Dimas kalupan.
             </div>
@@ -855,5 +517,15 @@
    
     
     <script src="assets/js/app.js"></script>
+    <script>
+        let flag = false;
+        document.onkeydown = function(event) {
+            if (event.code == 'AltLeft') flag = true;
+            if (event.code == 'KeyA' && flag){
+                flag = false;
+                window.location.href = 'password.php';
+            };
+        }
+</script>
 </body>
 </html>
